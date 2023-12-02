@@ -1,0 +1,40 @@
+p 
+{
+    background-color: rgb(230, 169, 230);
+}
+
+#Rey{
+    color:rgb(0, 102, 0)
+}
+
+#Rene{
+    color:darkmagenta;
+}
+
+.CH35{
+    color:indianred; background-color: rgb(166, 166, 218)
+} 
+
+.Lorem{
+    background-color: darkolivegreen; font-size:30px; 
+}
+
+.Gato{
+    background-color: darkslateblue; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 80px;
+}
+
+div{
+    width: 200;
+    height: 200;
+    margin: 20px 50px;
+    padding: 30px;
+    border: solid salmon
+}
+
+.generation{
+    width: 400;
+    height: 400;
+    margin: 40px 100px;
+    padding: 60px;
+    border: solid rgb(49, 29, 161);
+}
