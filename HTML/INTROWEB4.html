@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="../HTML/ASSETS/style.css">
     <title>HTML Avanzado</title>
 </head>
-    <div><h1>Ejemplo de Tabla</h1>
+<body class="body">
+    <h1>Ejemplo de Tabla</h1>
     <!-- Las tablas son un conjunto estructurado de datos compuesto por filas y columnas -->
     <caption></caption> <!-- Caption representa un título descriptivo de una tabla -->
     <table border="1"> <!-- Crea el elemnto tabla, con el atributo border le añadimos bordes a nuestra tabla-->
@@ -110,7 +111,7 @@
     <br>
     <hr>
     <br>
-    <div>
+    <div class="caja">
         <h1><strong>Anclajes:Interno y Externo</strong></h1>
         <a id="anclajes" href="#seccion1">Raza mexicana Calupoh ¿Lo conocias?</a>
         <br> 
@@ -147,10 +148,60 @@
         <h5>Anclaje de mapa</h5>
         <a href="https://www.google.com/maps/place/Criadero+Caliente/@32.5072916,-116.9992508,15z/data=!4m2!3m1!1s0x0:0xd400cabeca23be20?sa=X&ved=2ahUKEwiLlYS6pfaCAxVzIEQIHV6rDV0Q_BJ6BAhqEAA" target="_blank">Ver ubicación a Criadero Caliente</a> <br> <br>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13458.823193878605!2d-116.9992508!3d32.5072916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9481b6770b083%3A0xd400cabeca23be20!2sCriadero%20Caliente!5e0!3m2!1ses-419!2smx!4v1701711038887!5m2!1ses-419!2smx" width="600" height="450" style="border: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <!--Estos anclajes nos permiten enlazar ubicaciones especificas en servicios de mapas, ya sea Google, para que los usuarios puedan tener La referncia-->
+        <!--Estos anclajes nos permiten enlazar ubicaciones especificas en servicios de mapas, ya sea Google, para que los usuarios puedan tener La referencia-->
         <br>
         <h5>Anclaje de Redes Sociales</h5>
         <a href="https://www.facebook.com/CriaderoCaliente/" target="_blank">Facebook de Caliente Criaderos</a>
+        <br>
+        <hr>
+        <br>
+        <h1>Formularios y tipos de entradas</h1>
+        <form action="procesar_formulario" method="post"></form>
+        <!--La etiqueta form, se utiliza para crear un formulario en HTML que permite a los usuarios ingresar información.
+        action: Especifica a la URL a la que se enviaran los datos del formulario cuando este se envía.
+        method: Define el metodo HTTP que se utilizara para enviar los datos (puede ser "get" o "post")-->
+        <br>
+        <h4>Etiqueta input</h4> <!--La etiqueta input se utiliza para crear campos de entrada en un formulario-->
+        <input type="text" name="Usuario" placeholder="Nombre">
+        <input tpe="password" name="contraseña" placeholder="Contraseña">
+        <!-- type: Define el tipo de entrada (texto, contraseña, correo electrónico, etc.).
+        name: Es el nombre del campo, utilizado para identificar el dato cuando se envía el formulario.
+        placeholder: Proporciona un texto de ejemplo dentro del campo de entrada. -->
+        <br>
+        <br>
+        <h4>Etiqueta label</h4>
+        <!--La etiqueta label se utiliza para etiquetar un elemento de entrada en un formulario. Lo que mejora la accesibilidad y la experiencia de ususario-->
+        <label for="usuario">Nombre: <!--for: es un atributo se asocia con el "id" de un elemento de entrada para indicar a que campo se refiere--> <input type="text" id="usuario" name="ususario"> 
+        </label>
+        <br>
+        <h4>Etiqueta button</h4>
+        <!--Esta etiqueta se utiliza para crear botones en un formulario que los ususarios pueden usar para hacer clic y envíar información-->
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetear</button>
+        <!--type: Define el tipo de botón-->
+        <br>
+        <h4>Area de texto</h4>
+        <textarea name="comentarios" id="comentarios" cols="50" rows="10"></textarea>
+        <br>
+        <h4>Número</h4>
+        <!--Este tipo de entrada crea un campo de entrada para números-->
+        <input type="number" name="number" placeholder="Elija un número">
+        <br>
+        <h4>Correo electrónico (email)</h4>
+        <input type="email" name="correo" placeholder="Ingrese su correo electrónico">
+        <br>
+        <h4>Numero de telefono (tel)</h4>
+        <input type="tel" name="telefono" placeholder="Ingrese su numero">
+        <br>
+        <h4>Fecha (date)</h4>
+        <input type="date" name="fecha">
+        <br>
+        <h4>Hora (time)</h4>
+        <input type="time" name="hora">
+        <br>
+        <h4>Archivo (file)</h4>
+        <input type="file" name="archivo"> <br> <br>
+        <button type="submit">Enviar archivo</button>
     </div>
     
 </body>

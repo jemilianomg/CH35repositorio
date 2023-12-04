@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de adopción</title>
+</head>
+<body>
+    <h1>Formulario de adopción</h1>
+    <div>
+        <fieldset>
+        <legend>1.Datos Personales</legend>
+        <label for="usuario">Nombre Completo:</label>
+        <input id="usuario" type="text">
+        <label for="edad">Edad:</label>
+        <input id="edad" type="number">
+        </fieldset>
+    </div> <br> <br>
+    <div>
+        <fieldset>
+        <legend>Datos de contacto</legend>
+        <label for="direccion">Domicilio:</label>
+        <input required id="direccion" type="text">
+        <label for="ocupacion">Ocupación:</label>
+        <input id="ocupacion" type="text"> 
+        <label for="email">Correo electrónico:</label>
+        <input id="email" type="email">
+        </fieldset> <br>
+        <fieldset>
+            <legend>Telefonos</legend>
+            <label for="casa">Casa:</label>
+            <input id="casa" type="tel">
+            <label for="celular">Celular:</label>
+            <input id="celular" type="tel">
+            <label for="trabajo">Trabajo:</label>
+            <input id="trabajo" type="tel">
+        </fieldset> <br>
+        <fieldset>
+            <legend>Nivel de estudio</legend>
+            <label for="tecnico">Técnico</label>
+            <input id="tecnico" type="checkbox"><br>
+            <label for="profesional">Profesional</label>
+            <input id="profesional" type="checkbox"><br>
+            <label for="posgrado">Posgrado</label>
+            <input id="posgrado" type="checkbox">
+        </fieldset>
+    </div> <br> <br> <hr> <br> <br>
+    <div>
+        <fieldset>
+            <legend>2.Referencias</legend>
+            <label for="personal">Referencia personal</label>
+            <input id="personal" type="text">
+            <label for="telefonorp">Telefono</label>
+            <input id="telefonorp" type="tel">
+            <label for="relacionrp">Relación</label>
+            <input id="relacionrp" type="text">
+<br> <hr>
+            <label for="familiar">Referencia familiar</label>
+            <input id="personal" type="text">
+            <label for="telefonorf">Telefono</label>
+            <input id="telefonorf" type="tel">
+            <label for="relacionrf">Parentesco</label>
+            <input id="relacionrf" type="text">
+        </fieldset>
+    </div> <br> <br> <hr> <br> <br>
+    <fieldset>
+        <legend>Situación personal</legend>
+        <h4>Menciona las personas con las que vives</h4>
+        <table border="1px">
+            <tr>
+                <th><label for="nombretb" for="nombretb2" for="nombretb3">Nombre</label></th>
+                <th><label for="edadtb" for="edadtb2" for="edadtb3">Edad</label></th>
+                <th><label for="parentezcotb" for="parentezco2" for="parentezco3">Parentezco</label></th>
+            </tr>
+            <tr>
+                <td><input id="nombretb"></td>
+                <td><input id="edadtb"></td>
+                <td><input id="parentezcotb"></td>
+            </tr>
+            <tr>
+                <td><input id="nombretb2"></td>
+                <td><input id="edadtb2"></td>
+                <td><input id="parentezcotb2"></td>
+            </tr>
+            <tr>
+                <td><input id="nombretb3"></td>
+                <td><input id="edadtb3"></td>
+                <td><input id="parentezcotb3"></td>
+            </tr>
+        </table> <br> <hr>
+        <label for="bebe">¿Algún familiar espera un bebé?</label>
+        <input id="bebe" type="checkbox">
+    </fieldset>
+</body>
+</html>
