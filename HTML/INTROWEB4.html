@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="../HTML/ASSETS/style.css">
     <title>HTML Avanzado</title>
 </head>
-<body>
-    <h1>Ejemplo de Tabla</h1>
+    <div><h1>Ejemplo de Tabla</h1>
     <!-- Las tablas son un conjunto estructurado de datos compuesto por filas y columnas -->
     <caption></caption> <!-- Caption representa un título descriptivo de una tabla -->
     <table border="1"> <!-- Crea el elemnto tabla, con el atributo border le añadimos bordes a nuestra tabla-->
@@ -23,7 +22,7 @@
             <td>Emiliano</td>
             <td>Madrigal</td>
         </tr>
-    </table><br>
+    </table border="1"><br>
     <h2>Nombres del equipo</h2>
     <caption>Devortex</caption>
     <table border="5">
@@ -88,5 +87,71 @@
             <td>Zarzamora</td>
         </tr>
     </table>
+    <table>
+        <thead> <!--Esta etiqueta agrupa los elementos ed contenido en la tabla-->
+            <tr>
+                <th colspan="3">Encabezado de tablas</th> <!--Permite expandir las celdas de datos o de encabezados al número de columnas que deseemos que ocupe-->
+            </tr>
+        </thead>
+        <tbody> <!--Esta etiqueta agrupa los elemntos de contenido en la tabla-->
+            <tr>
+                <td>El cuerpo de la tabla</td>
+                <td>con 2 columnas</td>
+                <td>columna</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Piesitos</th>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div>
+        <h1><strong>Anclajes:Interno y Externo</strong></h1>
+        <a id="anclajes" href="#seccion1">Raza mexicana Calupoh ¿Lo conocias?</a>
+        <br> 
+        <a href="#seccion2">Desarrollo de la raza</a>
+        <br>
+        <h1>Calupoh, el perro lobo mexicano</h1>
+        <h2 id="seccion1">Te presentamos una raza de canino tan mexicana como el lobo gris y el xolo; se trata del calupoh. ¿Lo conocías?</h2>
+        <p>El Calupoh o perro lobo mexicano es una raza híbrida originaria de México. Este peculiar canino surgió en la época prehispánica, resultado de la mezcla entre el lobo gris mexicano y el perro. Varios siglos se necesitaron para lograr la domesticación del Calupoh.
+
+        En el año de 1999 fue reconocido como la tercer raza de perros mexicanos, después del Chihuahua y el Xoloitzcuintle, por la Federación Canófila Mexicana.</p> <br> <br> <br>
+        <img class="alt" src="https://www.mexicodesconocido.com.mx/wp-content/uploads/2019/09/calupoh2.jpg" alt="referencia"> <br> <br> <br>
+        <h2 id="seccion2">Desarrollo de la raza Calupoh</h2>
+        <p>El perro lobo mexicano surge como un hibridismo entre el perro y el lobo gris, gracias a la similitud entre ambas especies. Este proceso de domesticación se llevó a cabo en la época prehispánica, aproximadamente desde inicios de nuestra era hasta el siglo XVI.
+        Desde mediados de la década de 1990 se ha trabajado en la investigación, recuperación, crianza y conservación de esta ancestral especie. El proyecto genético tuvo como base cruces entre perros y lobos con el objetivo de hacer un rescate cultural e histórico de esta importante especie.
+        </p> <br> <br> <br>
+        <img class="alt" src="https://www.mexicodesconocido.com.mx/wp-content/uploads/2019/09/calupoh3.jpg" alt="referencia"> <br> <br> <br>
+        <a href="INTROWEB4.html">Regrear al inicio</a>
+        <a href="#anclajes">Artículo</a>
+        <br>
+        <br>
+        <br>
+
+        <h2>Anclaje externo</h2>
+        <br>
+        <h6>Referenciar un artículo dentro de otro</h6>
+        <a href="https://fcm.mx/cachorros/criadero-caliente/" target="_blank">Criadero Calupoh</a> <!--Estos anclajes enlazan a una pagina web diferente. El valor del atributo href es la URL completa del sitio web de destino y el identificador de la seccion.-->
+        <h5>Anclar un número telefónico</h5>
+        <a href="Tel:+5265984173">Llamar al presidente</a>
+        <br>
+        <h5>Anclaje de WhatsApp</h5>
+        <a href="https://wa.me/1234567890" target="_blank">Envíanos un mensaje</a>
+        <!--Estos enlaces abren whatsapp en un navegador o en la aplicación movil, para que los usuarios puedan enviar mensajes al número predefinido-->
+        <br>
+        <h5>Anclaje de mapa</h5>
+        <a href="https://www.google.com/maps/place/Criadero+Caliente/@32.5072916,-116.9992508,15z/data=!4m2!3m1!1s0x0:0xd400cabeca23be20?sa=X&ved=2ahUKEwiLlYS6pfaCAxVzIEQIHV6rDV0Q_BJ6BAhqEAA" target="_blank">Ver ubicación a Criadero Caliente</a> <br> <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13458.823193878605!2d-116.9992508!3d32.5072916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9481b6770b083%3A0xd400cabeca23be20!2sCriadero%20Caliente!5e0!3m2!1ses-419!2smx!4v1701711038887!5m2!1ses-419!2smx" width="600" height="450" style="border: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!--Estos anclajes nos permiten enlazar ubicaciones especificas en servicios de mapas, ya sea Google, para que los usuarios puedan tener La referncia-->
+        <br>
+        <h5>Anclaje de Redes Sociales</h5>
+        <a href="https://www.facebook.com/CriaderoCaliente/" target="_blank">Facebook de Caliente Criaderos</a>
+    </div>
+    
 </body>
 </html>
