@@ -1,0 +1,15 @@
+p {
+    color:darkslateblue
+}
+body{
+    background-color: rgb(87, 123, 189);
+}
+h1, h2 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom:25px;
+}
+
+#navbar-text{
+    flex-direction: row;
+}

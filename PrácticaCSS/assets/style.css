@@ -1,0 +1,19 @@
+.button1{
+    width: 300px;height: 200px; font-size: 150px; color: rgb(51, 153, 76); background-color: blanchedalmond; border: 0px;
+}
+#demo{
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; box-shadow: 5px 5px 15px 5px #000000;
+}
+#demo{
+    background-color: #1C6EA4; 
+    display: block;
+    margin: 50px auto 0;
+    width: 100px;
+    height: 60px;
+    color: #fff;
+    padding:10px;
+}
+body{
+    background-color: #1C6EA4;
+     
+}
