@@ -1,0 +1,328 @@
+:root {
+    --font-primary:'Montserrat', sans-serif;
+    --color-background: white;
+    --color-primary: #000000;
+    --color-secondary:#6B43FF;
+    --color-third: #6667B0;
+    
+    
+
+}
+body{
+    background-color:whitesmoke;
+    font-family: var(--font-primary);
+    
+}
+
+.parent {
+    border: 0px solid #D1D2FA;
+    background-color: var(--color-background);
+    width: 1440px;
+    height: 1024px;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.container{
+    display: flex;
+    background:white;
+    box-shadow: 20px 20px 60px 0px rgba(94, 94, 94, 0.15), -20px -20px 60px 0px rgba(94, 94, 94, 0.15);
+    width: 567px;
+    height: 734px;
+    box-sizing: border-box;
+    position: absolute;
+    top:144px;
+    right:720px;
+    left: 153px;
+    bottom: 146px;
+
+
+}
+
+.containerright{
+    background:linear-gradient(90deg, rgba(180, 146, 253, 0.30) 0%, rgba(173, 78, 245, 0.95) 100%);
+    width: 587px;
+    height: 1024px;
+    box-sizing: border-box;
+    position: absolute;
+    right:0px;
+}
+
+.img{
+    width: 407px;
+    height: 505px;
+    position: relative;
+    right: 63px;
+    top:259px;
+    bottom: 268px;
+    left: 117px;
+    box-sizing: border-box;
+}
+#imgg{
+    width: 100%;
+    height: 100%;
+}
+.texto1{
+    width: 400px;
+    height: 57px;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: 73px;
+    bottom: 604px;
+    left: 63px;
+    right: 104px;
+}
+.container2{
+    width: 54px;
+    height: 44px;
+    position: relative;
+    top:231px;
+    left:278px;
+    bottom: 459px;
+    right: 235px;
+}
+#texto2{
+    font-family: var(--font-primary);
+    box-sizing: border-box;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+}
+.botong{
+    width: 205px;
+    height: 70px;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid #1D1D1D;
+    left: 63px;
+    top: 152px;
+    right: 299px;
+    bottom: 512px;
+    
+}
+
+#botongtext{
+    position: absolute;
+    font-family: var(--font-primary);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.botona{
+    width: 205px;
+    height: 70px;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid #1D1D1D;
+    left: 310px;
+    top: 152px;
+    right: 299px;
+    bottom: 512px;
+    
+}
+
+#botonatext{
+    position: absolute;
+    font-family: var(--font-primary);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.linea-l{
+    position: relative;
+    box-sizing: border-box;
+    width: 205px;
+    height:1px;
+    top: 247;
+    left: 63px;
+    right: 299px;
+    bottom: 487px;
+}
+#linea-l{
+    background-color: var(--color-secondary);
+    position: absolute;
+}
+.linea-r{
+    position: relative;
+    box-sizing: border-box;
+    width: 205px;
+    height:1px;
+    top: 247;
+    left: 310px;
+    right: 52px;
+    bottom: 487px;
+}
+#linea-r{
+    background-color: var(--color-secondary);
+    position: absolute;
+}
+.texto-email{
+    position: relative;
+    box-sizing: border-box;
+    width: 205px;
+    height: 32px;
+    left: 63px;
+    top: 282px;
+    right: 299px;
+    bottom: 420px;
+}
+#texto-email{
+    position: absolute;
+    font-family: var(--font-primary);
+    color: #1D1D1D;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+.tu-email{
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid #1D1D1D;
+    width: 452px;
+    height: 67px;
+    top: 314px;
+    right: 52px;
+    bottom: 353px;
+    left: 63px;
+}
+#tu-email{
+    position: absolute;
+    font-family: var(--font-primary);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--color-third);
+}
+.texto-contraseña{
+    position: relative;
+    box-sizing: border-box;
+    width: 205px;
+    height: 32px;
+    left: 63px;
+    top: 403px;
+    right: 299px;
+    bottom: 299px;
+}
+#texto-contraseña{
+    position: absolute;
+    font-family: var(--font-primary);
+    color: #1D1D1D;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.tu-contraseña{
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid #1D1D1D;
+    width: 452px;
+    height: 67px;
+    top: 435px;
+    right: 52px;
+    bottom: 232px;
+    left: 63px;
+}
+#tu-contraseña{
+    position: absolute;
+    font-family: var(--font-primary);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--color-third);
+}
+
+.boton-inicia{
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: var(--color-secondary);
+    top:553px;
+    bottom: 114px;
+    right:63px;
+    left:52px;
+}
+#boton-inicia{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: var(--font-primary);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.tienes-cuenta{
+    position: relative;
+    box-sizing: border-box;
+    width: 321px;
+    height: 47px;
+    top: 629px;
+    left:200px;
+    right:46px;
+    bottom: 58px;
+}
+#tienes-cuenta{
+    position: absolute;
+    color: var(--color-third);
+    font-family: var(--font-primary);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+.googlelogo{
+    position: relative;
+    box-sizing: border-box;
+    width: 40px;
+    height: 41px;
+    position:relative;
+    left: 3px;
+    bottom: 18px;
+    right:161px;
+    top: 11px;
+}
+#googlelogo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+/* .applelogo{
+    position: relative;
+    box-sizing: border-box;
+    width: 40px;
+    height: 47.61905px;
+    position:relative;
+    left: 22px;
+    bottom: 14px;
+    right:143px;
+    top: 8px;
+}
+#applelogo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+} */

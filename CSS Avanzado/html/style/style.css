@@ -96,7 +96,8 @@ position: absolute;
     height: 100px;
     background-color:var(--color-secondary);
     text-align: center;
-    margin: 2px;
+    /*margin: 2px;*/
+    padding-block: 0%;
 }
 
 @media (max-width: 720px){
@@ -140,9 +141,9 @@ Vamos a poder acceder a diversas propiedades para modificar el comportamiento de
     border-radius: 6px;
 }
 
-#item-6{
+/*#item-6{
     align-self: center;
-}
+}*/
 
 a {
     text-decoration: none;
